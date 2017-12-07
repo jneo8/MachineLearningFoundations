@@ -48,6 +48,54 @@
     - Somehow there is data about the pattern
 
 
+## Application of Machine learning
+
+- Dailyneed 食衣住行育樂
+
+    - Food
+        - data: Twitter(word + location)
+        - skill: 判斷食物中毒
+    - clothing 
+        - data: sales figures + client surveys
+        - skill: 如何搭配衣服
+    - Housing
+    - Transportation
+        - 自動車
+    - Education
+
+- Entertainment: Recommender System
+    - data: how many users have rated some movies
+    - skill: predict how a user would rate an unrated movie
+
+## Components of ML
+
+- unknow pattern to be learned
+    - *approve credit card good for bank*
+
+- ## Basic Notations
+    - input x (customer application)
+
+    - output y (good/bad after approving credit card)
+
+    - *target function*
+        - f x -> y
+
+    - data:
+        - D = [(x1, y1), (x2, y2)]
+
+    - hypothesis <-> skill
+        - *g*: x -> y
+
+    - 機器學習就是從 hypothsis set (H) 中取得最像 f 的 g
+    - learning model = A & H
+    - 從資料出發算出一個 g(假說) 最接近我們心中所想的f(不知道但最佳)
+
+
+
+
+
+
+
 
 
 
